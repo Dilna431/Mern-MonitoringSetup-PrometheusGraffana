@@ -1,5 +1,3 @@
-# Mern-MonitoringSetup
-
 # MERN Application Monitoring Setup with Grafana & Prometheus
 
 ## 📁 Repository Link
