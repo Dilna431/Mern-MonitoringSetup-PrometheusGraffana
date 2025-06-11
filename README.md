@@ -1,16 +1,12 @@
 # MERN Application Monitoring Setup with Grafana & Prometheus
 
-## 📁 Repository Link
 
-
----
-
-## 🚀 Project Overview
+## Project Overview
 A comprehensive monitoring solution for a full-stack MERN application using **Grafana**, **Prometheus**, **Loki**, and **Jaeger**. This setup provides metrics, log aggregation, and tracing for frontend, backend, and database layers.
 
 ---
 
-## 📦 Components
+## Components
 - **MERN Stack App** (Travel Memory App)
 - **Prometheus** – Metrics collection
 - **Grafana** – Visualization
@@ -20,7 +16,7 @@ A comprehensive monitoring solution for a full-stack MERN application using **Gr
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone and Run the App
 ```bash
