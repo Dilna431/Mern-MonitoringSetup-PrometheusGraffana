@@ -1,7 +1,7 @@
 # MERN Application Monitoring Setup with Grafana & Prometheus
 
 ## 📁 Repository Link
-[GitHub Repository: MERN Monitoring Setup](https://github.com/your-username/mern-monitoring-setup)
+
 
 ---
 
@@ -61,49 +61,6 @@ npm start
   - High error rate
   - Database CPU usage
 
----
-
-## 📊 Grafana Dashboards
-### ✅ Application Metrics
-![App Metrics](screenshots/app_metrics.png)
-
-### ✅ MongoDB Health
-![Mongo Metrics](screenshots/mongo_metrics.png)
-
-### ✅ Logs
-![Logs](screenshots/logs.png)
-
-### ✅ Tracing
-![Tracing](screenshots/tracing.png)
-
----
-
-## 📈 Performance Analysis
-- Observed slow API calls during peak hours (8-9 PM)
-- Spikes in DB connections resolved by index optimization
-- Logs revealed frequent 404 errors on `/api/photos`
-- Traces highlighted long hops between frontend → backend → DB
-
----
-
-## 📄 Challenges & Fixes
-- ❌ MongoDB exporter connection issues
-  - ✅ Fixed with `authMechanism=SCRAM-SHA-1`
-- ❌ Missing logs from Promtail
-  - ✅ Corrected file path and access rights
-- ❌ Jaeger UI not accessible
-  - ✅ Exposed port `16686` in Docker
-
----
-
-## 🎁 Bonus Implementations
-- 🔁 Kubernetes HPA setup based on CPU metrics (optional branch)
-- 🌐 Istio service mesh tested on separate microservice demo
-
----
-
-## ✅ Conclusion
-This project successfully integrates monitoring, log aggregation, and tracing in a full MERN stack. The setup improves observability and helps detect performance issues early.
 
 ---
 
